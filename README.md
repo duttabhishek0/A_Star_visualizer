@@ -1,4 +1,4 @@
-# A_Star_visualizer
+# A Sar Visualizer
 This is a visualizer to visualize the A star algorithm, used in finding the shortest path using a heuristic. A heuristic is used to guess the  minimal cost of a node to the target. So when choosing a node, we don't only analyze the cost from the start to this node but also the probable cost from the node to the target. This allows us to ignore paths that would lead to wrong direction.
 <br>
 In any path finding problem, there are always two things given:
