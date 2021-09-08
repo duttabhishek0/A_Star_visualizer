@@ -17,3 +17,13 @@ The formula used to calculate the path :
   h(n) => Cost of the current node, when we move from that particular node to the end node or the goal node..
 ```
 In the above formula, the cost is calculated, then at the next iteration, it is checked whether the path previously taken is optimal or not.
+
+# The Visualizer
+This project goes with modular approach to build the visualiser by separating the following into individual modules
+- Algorithm  (The core of this visualizer)
+- Drawing facilities  (Added support for pointing )
+- Nodes   
+- Colors Used
+
+I have used the [gruvbox color scheme](https://github.com/morhetz/gruvbox). 
+
