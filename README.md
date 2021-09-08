@@ -1,4 +1,4 @@
-# A Sar Visualizer
+# A Star Visualizer
 This is a visualizer to visualize the A star algorithm, used in finding the shortest path using a heuristic. A heuristic is used to guess the  minimal cost of a node to the target. So when choosing a node, we don't only analyze the cost from the start to this node but also the probable cost from the node to the target. This allows us to ignore paths that would lead to wrong direction.
 <br>
 In any path finding problem, there are always two things given:
@@ -27,3 +27,4 @@ This project goes with modular approach to build the visualiser by separating th
 
 I have used the [gruvbox color scheme](https://github.com/morhetz/gruvbox). 
 
+I have added all the requirements in the [requirements.txt](https://github.com/duttabhishek0/A_Star_visualizer/blob/main/requirements.txt) file
